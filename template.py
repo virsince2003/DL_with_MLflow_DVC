@@ -10,6 +10,7 @@ project_name = "Automaitc_number_plate_recognition"
 files_list = [
         ".github/workflows/.gitkeep",
     f"src/{project_name}/__init__.py",
+    f"src/{project_name}/exceptions.py",
     f"src/{project_name}/components/__init__.py",
     f"src/{project_name}/utils/__init__.py",
     f"src/{project_name}/config/__init__.py",
