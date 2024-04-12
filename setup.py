@@ -18,7 +18,8 @@ with open("README.md", "r", encoding="utf-8") as f:
 __version__ = "0.0.1"
 
 REPO_NAME = "Automatic-Number-Plate-Recognition-Project"
-AUTHOR_USER_NAME = "Virender Chauhan"
+AUTHOR_NAME = "Virender Chauhan"
+USER_NAME = 'vir_since2003'
 SRC_REPO = "Automaitc_number_plate_recognition"
 AUTHOR_EMAIL = "virchauhan657@gmail.com"
 
@@ -26,14 +27,14 @@ AUTHOR_EMAIL = "virchauhan657@gmail.com"
 setup(
     name=SRC_REPO,
     version=__version__,
-    author=AUTHOR_USER_NAME,
+    author=AUTHOR_NAME,
     author_email=AUTHOR_EMAIL,
-    description="A small python package for CNN app",
+    description="Automatic Number Plate Recognition (ANPR) system using Deep Learning (DL), MLflow, and DVC.",
     long_description=long_description,
     long_description_content="text/markdown",
-    url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
+    url=f"https://github.com/{USER_NAME}/{REPO_NAME}",
     project_urls={
-        "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
+        "Bug Tracker": f"https://github.com/{USER_NAME}/{REPO_NAME}/issues",
     },
     package_dir={"": "src"},
     packages=find_packages(where="src"),
