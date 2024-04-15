@@ -1,7 +1,9 @@
+test_dir:
+  image_path: test/images/test1.png
 
-test_dir: test
+models_dir:
+  model_path: models/yolov8_weight.pt
 
-  image_path: test/images/img.jpg
-
-
+img_output_dir:
+  output_img_path: processed_images/processed_image.jpg
 
